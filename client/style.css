@@ -1,0 +1,40 @@
+body{
+    background-color: #edf2f6;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+header{
+    background-color: white;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+header nav a {
+    margin: 14px 60px;
+    font-size: 18px;
+    color: #979797;
+}
+
+header nav a.active {
+    color: #324ab2;
+}
+
+.container{
+    padding: 50px 120px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards{
+    padding: 100px;
+}
